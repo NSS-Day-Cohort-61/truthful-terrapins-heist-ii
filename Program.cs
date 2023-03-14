@@ -17,7 +17,7 @@ namespace truthful_terrapins_heist_ii
             new Muscle("john", 50, 25),
             new Muscle("taylor", 50, 5),
             };
-            
+
             Console.WriteLine("We're breaking in and stealing some shit");
             Console.WriteLine($"We got {rolodex.Count} homies in this squad");
 
@@ -26,7 +26,7 @@ namespace truthful_terrapins_heist_ii
             while (true)
             {
                 string noobName = Console.ReadLine();
-                if(noobName == "")
+                if (noobName == "")
                 {
                     break;
                 }
@@ -38,7 +38,7 @@ namespace truthful_terrapins_heist_ii
                 int noobPay = int.Parse(Console.ReadLine());
 
                 Console.WriteLine("Please select a speciality:");
-                Taco:
+            Taco:
                 Console.WriteLine("1) Hacker (Disables alarms)");
                 Console.WriteLine("2) Muscle (Disarms guards)");
                 Console.WriteLine("3) Lock Specialist (cracks vault)");
@@ -84,33 +84,44 @@ namespace truthful_terrapins_heist_ii
             Console.WriteLine($"Least secure system: {ordered[0].Key}. With a score of: {ordered[0].Value}");
             Console.WriteLine($"Most secure system: {ordered[2].Key}. With a score of: {ordered[2].Value}");
 
-            int x = 0;
-
-            foreach(IRobber rob in rolodex)
-            {
-                x += 1;
-                Console.WriteLine($@"
-                    Member {x}: {rob.Name}
-                    Specialty: {rob.GetType().Name}
-                    Skill Level: {rob.SkillLevel}
-                    Cut: {rob.PercentageCut}%");
-            }
 
             List<IRobber> crew = new();
 
             Console.WriteLine("Which members do you want on this job?");
-            while(true)
+            int y = 100;
+
+            while (true)
             {
+                int x = 0;
+
+                foreach (IRobber rob in rolodex)
+                {
+                        x += 1;
+                    if (y - rob.PercentageCut > 0)
+                    {
+                        Console.WriteLine($@"
+                        Member {x}: {rob.Name}
+                        Specialty: {rob.GetType().Name}
+                        Skill Level: {rob.SkillLevel}
+                        Cut: {rob.PercentageCut}%");
+                    }
+                }
                 string pick = Console.ReadLine();
 
-                if(pick == "")
+                if (pick == "")
                 {
                     break;
                 }
 
                 int index = int.Parse(pick) - 1;
                 crew.Add(rolodex[index]);
-                
+                y -= rolodex[index].PercentageCut;
+                rolodex.RemoveAt(index);
+                Console.Clear();
+                Console.WriteLine($"Now we got {crew.Count} homies in this squad");
+                Console.WriteLine(y);
+
+
             }
 
 

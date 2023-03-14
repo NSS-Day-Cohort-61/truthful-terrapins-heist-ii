@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kaci\\.nuget\\packages\\": {}
+    "C:\\Users\\Pinto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kaci\\workspace\\truthful-terrapins-heist-ii\\truthful-terrapins-heist-ii.csproj",
+      "projectUniqueName": "C:\\Users\\Pinto\\workspace\\csharp\\truthful-terrapins-heist-ii\\truthful-terrapins-heist-ii.csproj",
       "projectName": "truthful-terrapins-heist-ii",
-      "projectPath": "C:\\Users\\Kaci\\workspace\\truthful-terrapins-heist-ii\\truthful-terrapins-heist-ii.csproj",
-      "packagesPath": "C:\\Users\\Kaci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kaci\\workspace\\truthful-terrapins-heist-ii\\obj\\",
+      "projectPath": "C:\\Users\\Pinto\\workspace\\csharp\\truthful-terrapins-heist-ii\\truthful-terrapins-heist-ii.csproj",
+      "packagesPath": "C:\\Users\\Pinto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pinto\\workspace\\csharp\\truthful-terrapins-heist-ii\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pinto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
