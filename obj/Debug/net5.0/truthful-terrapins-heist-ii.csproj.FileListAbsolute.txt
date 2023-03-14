@@ -1,0 +1,16 @@
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\bin\Debug\net5.0\truthful-terrapins-heist-ii.exe
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\bin\Debug\net5.0\truthful-terrapins-heist-ii.deps.json
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\bin\Debug\net5.0\truthful-terrapins-heist-ii.runtimeconfig.json
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\bin\Debug\net5.0\truthful-terrapins-heist-ii.runtimeconfig.dev.json
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\bin\Debug\net5.0\truthful-terrapins-heist-ii.dll
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\bin\Debug\net5.0\ref\truthful-terrapins-heist-ii.dll
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\bin\Debug\net5.0\truthful-terrapins-heist-ii.pdb
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\truthful-terrapins-heist-ii.csproj.AssemblyReference.cache
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\truthful-terrapins-heist-ii.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\truthful-terrapins-heist-ii.AssemblyInfoInputs.cache
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\truthful-terrapins-heist-ii.AssemblyInfo.cs
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\truthful-terrapins-heist-ii.csproj.CoreCompileInputs.cache
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\truthful-terrapins-heist-ii.dll
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\ref\truthful-terrapins-heist-ii.dll
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\truthful-terrapins-heist-ii.pdb
+C:\Users\chans\workspace\truthful-terrapins-heist-ii\obj\Debug\net5.0\truthful-terrapins-heist-ii.genruntimeconfig.cache
