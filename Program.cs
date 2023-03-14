@@ -80,11 +80,38 @@ namespace truthful_terrapins_heist_ii
             };
 
             var ordered = bankDict.OrderBy(x => x.Value).ToList();
-            // This should tell the user what the bank's most secure system is, and what its least secure system is 
-            // (don't print the actual integer scores--just the name, i.e. Most Secure: Alarm Least Secure: Vault
 
             Console.WriteLine($"Least secure system: {ordered[0].Key}. With a score of: {ordered[0].Value}");
             Console.WriteLine($"Most secure system: {ordered[2].Key}. With a score of: {ordered[2].Value}");
+
+            int x = 0;
+
+            foreach(IRobber rob in rolodex)
+            {
+                x += 1;
+                Console.WriteLine($@"
+                    Member {x}: {rob.Name}
+                    Specialty: {rob.GetType().Name}
+                    Skill Level: {rob.SkillLevel}
+                    Cut: {rob.PercentageCut}%");
+            }
+
+            List<IRobber> crew = new();
+
+            Console.WriteLine("Which members do you want on this job?");
+            while(true)
+            {
+                string pick = Console.ReadLine();
+
+                if(pick == "")
+                {
+                    break;
+                }
+
+                int index = int.Parse(pick) - 1;
+                crew.Add(rolodex[index]);
+                
+            }
 
 
         }
