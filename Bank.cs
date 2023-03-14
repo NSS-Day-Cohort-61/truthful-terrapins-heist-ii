@@ -15,5 +15,14 @@ namespace truthful_terrapins_heist_ii
                 return !(AlarmScore <= 0 && VaultScore <= 0 && SecurityGuardScore <= 0);
             }
         }
+
+        public Bank(int coh, int alarm, int vault, int guard)
+        {
+            CashOnHand = coh;
+            AlarmScore = alarm;
+            VaultScore = vault;
+            SecurityGuardScore = guard;
+
+        }
     }
 }
