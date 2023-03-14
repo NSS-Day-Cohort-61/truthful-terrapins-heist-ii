@@ -11,7 +11,7 @@ namespace truthful_terrapins_heist_ii
         public void PerformSkill(Bank bank)
         {
             bank.AlarmScore -= this.SkillLevel;
-            Console.WriteLine($"{Name} is hacking the alarm system and has decresed it by {SkillLevel} points.");
+            Console.WriteLine($"{Name} is hacking the alarm system and has decreased it by {SkillLevel} points.");
             if (bank.AlarmScore <= 0)
             {
                 Console.WriteLine($"{Name} has disabled the alarm system!");

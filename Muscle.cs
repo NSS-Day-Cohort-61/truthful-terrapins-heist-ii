@@ -11,7 +11,7 @@ namespace truthful_terrapins_heist_ii
         public void PerformSkill(Bank bank)
         {
             bank.SecurityGuardScore -= this.SkillLevel;
-            Console.WriteLine($"{Name} is destroying the security guard and has decresed it by {SkillLevel} points.");
+            Console.WriteLine($"{Name} is destroying the security guard and has decreased it by {SkillLevel} points.");
             if (bank.SecurityGuardScore <= 0)
             {
                 Console.WriteLine($"{Name} has killed the guards!");

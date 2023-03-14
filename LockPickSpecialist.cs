@@ -11,7 +11,7 @@ namespace truthful_terrapins_heist_ii
         public void PerformSkill(Bank bank)
         {
             bank.VaultScore -= this.SkillLevel;
-            Console.WriteLine($"{Name} is picking the vault system and has decresed it by {SkillLevel} points.");
+            Console.WriteLine($"{Name} is picking the vault system and has decreased it by {SkillLevel} points.");
             if (bank.VaultScore <= 0)
             {
                 Console.WriteLine($"{Name} has disabled the Vault system!");
